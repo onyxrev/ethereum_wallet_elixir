@@ -1,0 +1,2 @@
+%{"hex2bin": {:hex, :hex2bin, "1.0.0", "aac26eab998ae80eacee1c7607c629ab503ebf77a62b9242bae2b94d47dcb71e", [:rebar3], []},
+  "ksha3": {:git, "https://github.com/onyxrev/ksha3.git", "da91f443276e0ebd90b90133b44168a8c2cad318", [branch: "master"]}}
