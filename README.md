@@ -13,3 +13,7 @@ iex(1)> Ethereum.Wallet.generate
   private_key: "0625d3bf685351d3ff2374a4368438b28315b64adb6e44b122759682f3868720"
 }
 ```
+
+## TODOs
+
+* tests (underlying crypto libs already tested)
