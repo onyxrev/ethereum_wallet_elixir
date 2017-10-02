@@ -7,9 +7,9 @@ defmodule Ethereum.Wallet do
 
   defstruct address: nil, private_key: nil
 
-  # creates an Ethereum.Address struct containing a public address and the
+  # creates an Ethereum.Wallet struct containing a public address and the
   # corresponding private key for the address, both as hex strings.
-  # %Ethereum.Address{
+  # %Ethereum.Wallet{
   #   address: "0x9ec5ea8bb6f486fd4cde94d38fee18f2f3e71525",
   #   private_key: "0625d3bf685351d3ff2374a4368438b28315b64adb6e44b122759682f3868720"
   # }

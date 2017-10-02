@@ -8,7 +8,7 @@ Pretty straightforward. No support for BIP39/44 or anything at this time.
 
 ```elixir
 iex(1)> Ethereum.Wallet.generate
-%Ethereum.Address{
+%Ethereum.Wallet{
   address: "0x9ec5ea8bb6f486fd4cde94d38fee18f2f3e71525",
   private_key: "0625d3bf685351d3ff2374a4368438b28315b64adb6e44b122759682f3868720"
 }
