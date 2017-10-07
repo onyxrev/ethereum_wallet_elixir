@@ -1,3 +1,5 @@
+[![Build Status](https://semaphoreci.com/api/v1/onyxrev/ethereum_wallet_elixir/branches/master/badge.svg)](https://semaphoreci.com/onyxrev/ethereum_wallet_elixir)
+
 # Ethereum Wallet
 
 Generate Ethereum public addresses and private keys using Elixir with C bindings to crypto libraries.
