@@ -14,8 +14,7 @@ defmodule Ethereum.Wallet do
   #   private_key: "0625d3bf685351d3ff2374a4368438b28315b64adb6e44b122759682f3868720"
   # }
   def generate do
-    # all ethereum addresses are based on valid ECDH secp256k1 keys
-    {public_key, private_key} = :crypto.generate_key(:ecdh, :secp256k1)
+    {public_key, private_key} = Ethereum.Wallet.Crypto.generate_pair()
 
     struct(
       Ethereum.Wallet,

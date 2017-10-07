@@ -23,14 +23,15 @@ defmodule Ethereum.Wallet.Mixfile do
 
   # Specifies which paths to compile per environment
   defp elixirc_paths(:test), do: ["test/support"] ++ elixirc_paths(:prod)
-  defp elixirc_paths(_),     do: ["lib"]
+  defp elixirc_paths(_),     do: ["lib", "lib/ethereum_wallet_elixir"]
 
   defp applications(_) do
     []
   end
 
   defp deps do
-    [{:ksha3, "~> 1.0.0", git: "https://github.com/onyxrev/ksha3.git", branch: "master"}]
+    [{:ksha3, "~> 1.0.0", git: "https://github.com/onyxrev/ksha3.git", branch: "master"},
+     {:mock, "~> 0.2.0", only: :test}]
   end
 
   defp package do

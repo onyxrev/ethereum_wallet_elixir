@@ -1,2 +1,4 @@
 %{"hex2bin": {:hex, :hex2bin, "1.0.0", "aac26eab998ae80eacee1c7607c629ab503ebf77a62b9242bae2b94d47dcb71e", [:rebar3], []},
-  "ksha3": {:git, "https://github.com/onyxrev/ksha3.git", "da91f443276e0ebd90b90133b44168a8c2cad318", [branch: "master"]}}
+  "ksha3": {:git, "https://github.com/onyxrev/ksha3.git", "da91f443276e0ebd90b90133b44168a8c2cad318", [branch: "master"]},
+  "meck": {:hex, :meck, "0.8.8", "eeb3efe811d4346e1a7f65b2738abc2ad73cbe1a2c91b5dd909bac2ea0414fa6", [:rebar3], []},
+  "mock": {:hex, :mock, "0.2.1", "bfdba786903e77f9c18772dee472d020ceb8ef000783e737725a4c8f54ad28ec", [:mix], [{:meck, "~> 0.8.2", [hex: :meck, optional: false]}]}}
